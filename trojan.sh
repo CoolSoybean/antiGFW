@@ -83,3 +83,4 @@ RestartSec=1s
 WantedBy=multi-user.target
 EOF
 systemctl enable --now trojan
+systemctl status trojan
